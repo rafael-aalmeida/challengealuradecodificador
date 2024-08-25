@@ -1,0 +1,89 @@
+* {
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo_alura {
+    margin: 10px;
+    padding: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area_texto {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+    .area_texto:focus {
+        outline: none;
+    }
+
+.mensagem { 
+    background-color: #FFFFFF;
+    background-image: url(assets/High\ quality\ products\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 32px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-between;
+    gap: 8%;
+}
+
+.botao_cripto {
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.botao_descripto {
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+}
+
+.aviso {
+    color: #495057;
+    font-size: 12px;
+}
+
+.botao_copiar {
+    border-radius: 24px;
+    width: 336px;
+    height: 67px;
+    color: #0A3871;
+    background-color: #FFFFFF;
+    margin-left: 120px;
+    margin-top: 544px;
+    font-size: 16px;
+}
